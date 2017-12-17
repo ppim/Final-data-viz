@@ -1,0 +1,60 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'futura', sans-serif;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100vw;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: 'Futura-CondensedExtraBold';
+    margin: 1.5rem 0 1rem;
+}
+
+.subheader {
+    font-family: 'Futura-CondensedExtraBold';
+    margin: 0 0 3rem;
+    color: grey;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.data-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 3rem;
+}
+
+.catagory {
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.graph-img {
+    width: 55%;
+    padding: 0 2rem;
+}
